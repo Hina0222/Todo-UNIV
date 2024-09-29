@@ -1,16 +1,13 @@
-import { Route, Routes } from 'react-router-dom';
-import './App.css';
-import Main from './page/main/Main';
-import Calendar from './page/calendar/Calendar';
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import Main from "./page/main/Main";
+import Modal from "./components/Modal";
 
 function App() {
   return (
-    <div className='wrap'>
-      <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/calendar' element={<Calendar />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+    </Routes>
   );
 }
 
