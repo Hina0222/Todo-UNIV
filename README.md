@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+리팩터링 예정
+## :fire: 팀명 및 프로젝트 소개
+<p align="center">
+  <img width="200" src="https://github.com/user-attachments/assets/002d3185-e4f9-4a4a-9c5c-1f4b86bb8c12">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <strong>
+    - DailyBox -
+    <br>
+    언제 어디서나 직관적으로 관리하는 투두앱
+  </strong>
+</p>
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `yarn start`
+## :heavy_check_mark: 주제 선정
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+사소하지만 매일 하는 것, 반복해서 해야하는 중요한 일들이지만 투두로 관리하기에는 사소하고 불편한 일정들 어떻게 관리해야할까?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**DailyBox**는 기존 투두앱에서 쓰기엔 애매하지만 기억은 해야하는 일들을 글이 아닌 이모지로 관리하여 직관적이고 활용성이 높은 투두앱입니다.
 
-### `yarn test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ 주요 기능
+<br>
 
-### `yarn build`
+**이모지로 관리하는 투두 기록**<br>
+: 사용자의 투두를 나타내는 이모지로 일정을 관리합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**일주일 루틴을 등록**<br>
+: 사용자의 일정을 모아 일주일 루틴으로 관리합니다.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**위젯**(리팩터링에서 추가 예정)<br>
+: 스마트 워치, 스마트폰 등 위젯으로 투두를 관리합니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
+## :star: 주요 기술&아키텍처
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<img src="https://github.com/user-attachments/assets/597f454c-7ced-4eb7-8ed6-3c7baec2273f"/>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## :yellow_heart: UI
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<details>
+  <summary><b>와이어프레임&디자인</b></summary>
+  <div markdown="1">
+  <div align="center">
+    <img width="170" src="https://github.com/user-attachments/assets/631bbf02-68a3-4e88-bdd3-008574df6b47"/>
+    <img width="170" src="https://github.com/user-attachments/assets/37696dd5-edb9-454a-959f-86fd23e7a227"/>
+    <img width="170" src="https://github.com/user-attachments/assets/5b95bc15-2ee7-4652-9612-4704b9fae091"/>
+    <img width="170" src="https://github.com/user-attachments/assets/31119b7d-20a6-48a2-8b1c-d9c66a8431b8"/>
+  </div>
+  </div>
+</details>
+<details>
+  <summary><b>맡은 파트</b></summary>
+  <div markdown="1">
+   UI, 투두 관리 기능(추가, 삭제, 되돌리기), 일주일 투두 관리
+  </div>
+</details>
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :smile: 팀원
+<table>
+  <tr> 
+    <th align='center'><strong>FRONT-END</strong></th> 
+    <th align='center'><strong>BACK-END</strong></th> 
+  </tr>
+  <tr> 
+    <td align='center'><strong>성지훈, 정윤석</strong></td> 
+    <td align='center'><strong>유승완, 이수경</strong></td> 
+  </tr>
+</table>
