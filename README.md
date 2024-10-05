@@ -55,8 +55,10 @@
     <img width="170" src="https://github.com/user-attachments/assets/37696dd5-edb9-454a-959f-86fd23e7a227"/>
     <img width="170" src="https://github.com/user-attachments/assets/5b95bc15-2ee7-4652-9612-4704b9fae091"/>
     <img width="170" src="https://github.com/user-attachments/assets/31119b7d-20a6-48a2-8b1c-d9c66a8431b8"/>
+    <img src="https://github.com/user-attachments/assets/ba2440fd-0d49-421f-9575-fd53b9abb39a"/>
   </div>
   </div>
+
 </details>
 <details>
   <summary><b>맡은 파트</b></summary>
